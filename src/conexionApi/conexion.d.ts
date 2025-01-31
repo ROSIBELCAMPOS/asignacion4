@@ -1,0 +1,1 @@
+export declare function formulario(data: any): Promise<{ success: boolean, data: any }>;
