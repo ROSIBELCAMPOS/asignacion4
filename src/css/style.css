@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    width: 100vw; /* Asegura que el contenedor ocupe todo el ancho de la pantalla */
+    height: 100vh; /* Asegura que el contenedor ocupe todo el alto de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formulario {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    align-self: center;
+  }
+  
+  .formDatosInput {
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  
+  .formDatosInput:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px; /* Reduce el tamaño del botón */
+    border: none;
+    border-radius: 6px; /* Bordes más suaves */
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de texto más pequeño */
+    text-align: left; /* Alineación del texto */
+    transition: background 0.3s ease;
+    width: auto; /* Para que el tamaño del botón se ajuste al contenido */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start; /* Alinea el contenido a la izquierda */
+  }
+
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+  }
